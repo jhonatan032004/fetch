@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "MARIA",
+        "apellido": "SE FUE",
+        "telefono": 951357,
+        "cedula": 123456789
+    },
+    {
+        "nombre": "SUSANA",
+        "apellido": "TAMBIEN SE FUE",
+        "telefono": 951357,
+        "cedula": 123456789
+    },
+    {
+        "nombre": "JHOANA",
+        "apellido": "NO SE FUE",
+        "telefono": 951357,
+        "cedula": 123456789
+    },
+    {
+        "nombre": "MARIA",
+        "apellido": "YA VOLVIO",
+        "telefono": 951357,
+        "cedula": 123456789
+    },
+    {
+        "nombre": "SUSANA",
+        "apellido": "SI  CROCHIS, ESA NO LLEGO",
+        "telefono": 951357,
+        "cedula": 123456789
+    }
+]
