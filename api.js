@@ -27,22 +27,26 @@ let url = 'datos.json';
 fetch(url)
     .then(res => res.json())
     .then(data => {
-        let imp = document.getElementById('dato')
-        let mensaje = ""
-            for (let index = 0; index < data.length; index++) {
-            mensaje = mensaje + 
-            data[index].nombre +
-            " " + data[index].apellido +
-            "<b><br> Telefono: </b>" +
-            data[index].telefono +
-            "<b><br> Cedula: </b>" + data[0].cedula + "<br><br>" 
-            }
+        let imp = document.getElementById('dato');
+        let mensaje = "";
+            // for (let index = 0; index < data.length; index++) {
+            // mensaje += 
+            // data[index].nombre +
+            // " " + data[index].apellido +
+            // "<b><br> Telefono: </b>" +
+            // data[index].telefono +
+            // "<b><br> Cedula: </b>" + data[0].cedula + "<br><br>" 
+            // }
+
+
+            // data.forEach(element => {
+            //     mensaje += element.nombre + "<br>"
+            // });
+
+            data.map((valor,index,vector)=>{
+                mensaje += valor.nombre + "<br>";
+            })
+
             imp.innerHTML = mensaje;
-
-        console.log(data)
+        console.log(data);
     })
-
-
-
-
-
